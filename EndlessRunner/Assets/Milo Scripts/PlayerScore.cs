@@ -8,6 +8,8 @@ public class PlayerScore : MonoBehaviour {
 	public Text scoreText;
 	private int score;
 
+
+
 	// Use this for initialization
 	void Start () {
 		score = 100;

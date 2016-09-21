@@ -22,7 +22,7 @@ public class PlayerMovement : MonoBehaviour {
 		float jump = Input.GetAxis ("Vertical") * JumpSpeed;
 		jump *= Time.deltaTime;
 		transform.Translate (0, jump, 0);
-		rb.AddForce (Vector3.up * jump, ForceMode.Impulse);
+		rb.AddForce (Vector3.up * jump, ForceMode.Force);
 
 	}
 }
