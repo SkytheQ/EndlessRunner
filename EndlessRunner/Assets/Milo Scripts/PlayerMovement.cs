@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+/// <summary>
+///  
+/// </summary>
 public class PlayerMovement : MonoBehaviour {
 	private float RunSpeed = 10f;
 	private float JumpSpeed = 10f;
@@ -22,7 +24,7 @@ public class PlayerMovement : MonoBehaviour {
 		float jump = Input.GetAxis ("Vertical") * JumpSpeed;
 		jump *= Time.deltaTime;
 		transform.Translate (0, jump, 0);
-		rb.AddForce (Vector3.up * jump, ForceMode.Force);
+		rb.AddForce (Vector3.up * jump, ForceMode.Impulse);
 
 	}
 }
