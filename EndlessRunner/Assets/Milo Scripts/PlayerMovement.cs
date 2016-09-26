@@ -4,11 +4,10 @@ using System.Collections;
 ///  
 /// </summary>
 public class PlayerMovement : MonoBehaviour {
-	private float RunSpeed = 10f;
-	private float JumpSpeed = 10f;
+	private float RunSpeed = 0.15f;
+	public float JumpSpeed = 10f;
+	private bool isFalling = false;
 	public Rigidbody rb;
-
-
 
 	// Use this for initialization
 	void Start () {
@@ -17,14 +16,27 @@ public class PlayerMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		/*
 		float run = Input.GetAxis ("Horizontal") * RunSpeed;
 		run *= Time.deltaTime;
 		transform.Translate (run, 0, 0);
+		*/
 
-		float jump = Input.GetAxis ("Vertical") * JumpSpeed;
-		jump *= Time.deltaTime;
-		transform.Translate (0, jump, 0);
-		rb.AddForce (Vector3.up * jump, ForceMode.Impulse);
+		transform.Translate (RunSpeed, 0, 0);
 
+		//float jump = Input.GetAxis ("Vertical") * JumpSpeed;
+		//jump *= Time.deltaTime;
+		//transform.Translate (0, jump, 0);
+		//rb.AddForce (Vector3.up * jump, ForceMode.Impulse);
+
+
+		if (Input.GetKeyDown (KeyCode.W) && isFalling == false) {
+			rb.AddForce (Vector3.up * JumpSpeed, ForceMode.VelocityChange);
+		}
+		isFalling = true;
+	}
+
+	void OnCollisionStay() {
+		isFalling = false;
 	}
 }

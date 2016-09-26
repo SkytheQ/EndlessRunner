@@ -2,7 +2,6 @@
 using System.Collections;
 using UnityEngine.UI;
 
-
 public class PlayerScore : MonoBehaviour {
 
 	[SerializeField]
@@ -16,14 +15,14 @@ public class PlayerScore : MonoBehaviour {
 	private Vector3 lastPos;
 	private Vector3 currentPos;
 
-	private int minimunWalkPoint = 5;
-	private int maximumWalkPoint = 6;
+	private int minimunWalkPoint = 20;
+	private int maximumWalkPoint = 21;
 	 
 
 
 	// Use this for initialization
 	void Start () {
-		score = 100;
+		score = 0;
 		setScoreText ();
 
 		totalDistance = 0;
@@ -40,8 +39,8 @@ public class PlayerScore : MonoBehaviour {
 
 
 		if (totalDistance > minimunWalkPoint && totalDistance < maximumWalkPoint) {
-			score += 20;
-			minimunWalkPoint *= 2;
+			score += 100;
+			minimunWalkPoint += 20;
 			maximumWalkPoint = minimunWalkPoint + 1;
 			setScoreText ();
 		}
