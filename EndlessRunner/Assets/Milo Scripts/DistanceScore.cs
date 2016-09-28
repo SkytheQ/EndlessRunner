@@ -2,63 +2,45 @@
 using System.Collections;
 using UnityEngine.UI;
 
-public class PlayerScore : MonoBehaviour {
-
-	[SerializeField]
-	private Text scoreText;
-	private int score;
-
-	[SerializeField]
-	private Text distanceWalked;
-	private float totalDistance;
+public class DistanceScore : MonoBehaviour {
 
 	private Vector3 lastPos;
 	private Vector3 currentPos;
 
 	private int minimunWalkPoint = 20;
 	private int maximumWalkPoint = 21;
-	 
 
+	private float totalDistance;
 
 	// Use this for initialization
 	void Start () {
-		score = 0;
-		setScoreText ();
-
-		totalDistance = 0;
 		lastPos = transform.position;
 		currentPos = transform.position;
+		totalDistance = 0;
+
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		GameObject Player = GameObject.Find ("Player");
+		PlayerScore_UI playerscore_ui = Player.GetComponent<PlayerScore_UI> ();
+	
+
 		currentPos = transform.position;
+		currentPos.y = 0;
 		totalDistance += Vector3.Distance(currentPos, lastPos);
 		lastPos = currentPos;
-		distanceWalked.text = "Total Distance: " + totalDistance.ToString();
+		playerscore_ui.distanceWalked.text = "Total Distance: " + totalDistance.ToString();
 
 
 		if (totalDistance > minimunWalkPoint && totalDistance < maximumWalkPoint) {
-			score += 100;
+			playerscore_ui.score += 100;
 			minimunWalkPoint += 20;
 			maximumWalkPoint = minimunWalkPoint + 1;
-			setScoreText ();
-		}
-	}
+			playerscore_ui.SetScoreText ();
 
-	void OnTriggerEnter(Collider other) {
-		if (other.gameObject.CompareTag ("Enemy")) {
-			if (score == 0) {
-				score = 0;
-			} else {
-				score -= 20;
-			}
-		
-			setScoreText ();
 		}
-	}
-
-	void setScoreText() {
-		scoreText.text = "Score: " + score.ToString();
 	}
 }
+

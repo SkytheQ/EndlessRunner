@@ -4,8 +4,8 @@ using System.Collections;
 ///  
 /// </summary>
 public class PlayerMovement : MonoBehaviour {
-	private float RunSpeed = 0.15f;
-	public float JumpSpeed = 10f;
+	private float RunSpeed = 0.05f;
+	private float JumpSpeed = 8f;
 	private bool isFalling = false;
 	public Rigidbody rb;
 
@@ -29,11 +29,14 @@ public class PlayerMovement : MonoBehaviour {
 		//transform.Translate (0, jump, 0);
 		//rb.AddForce (Vector3.up * jump, ForceMode.Impulse);
 
+	}
 
+	void FixedUpdate() {
 		if (Input.GetKeyDown (KeyCode.W) && isFalling == false) {
 			rb.AddForce (Vector3.up * JumpSpeed, ForceMode.VelocityChange);
 		}
 		isFalling = true;
+		//Debug.Log (JumpSpeed);
 	}
 
 	void OnCollisionStay() {
