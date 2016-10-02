@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 1b7c28aaa9a456e44a93cdd609c24f2b
-timeCreated: 1473963076
+timeCreated: 1475424141
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -90,6 +90,7 @@ TextureImporter:
     21300166: Player_84
     21300168: Player_85
     21300170: Player_86
+    21300172: Player_50
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -132,11 +133,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 20
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Player_0
+    - serializedVersion: 2
+      name: Player_0
       rect:
         serializedVersion: 2
         x: 4
@@ -147,7 +151,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_1
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_1
       rect:
         serializedVersion: 2
         x: 220
@@ -158,7 +164,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_2
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_2
       rect:
         serializedVersion: 2
         x: 251
@@ -169,7 +177,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_3
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_3
       rect:
         serializedVersion: 2
         x: 285
@@ -180,7 +190,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_4
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_4
       rect:
         serializedVersion: 2
         x: 315
@@ -191,7 +203,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_5
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_5
       rect:
         serializedVersion: 2
         x: 347
@@ -202,7 +216,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_6
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_6
       rect:
         serializedVersion: 2
         x: 381
@@ -213,7 +229,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_7
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_7
       rect:
         serializedVersion: 2
         x: 417
@@ -224,7 +242,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_8
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_8
       rect:
         serializedVersion: 2
         x: 450
@@ -235,7 +255,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_9
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_9
       rect:
         serializedVersion: 2
         x: 481
@@ -246,7 +268,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_10
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_10
       rect:
         serializedVersion: 2
         x: 507
@@ -257,7 +281,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_11
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_11
       rect:
         serializedVersion: 2
         x: 537
@@ -268,7 +294,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_12
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_12
       rect:
         serializedVersion: 2
         x: 566
@@ -279,7 +307,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_13
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_13
       rect:
         serializedVersion: 2
         x: 596
@@ -290,7 +320,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_14
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_14
       rect:
         serializedVersion: 2
         x: 630
@@ -301,7 +333,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_15
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_15
       rect:
         serializedVersion: 2
         x: 2
@@ -312,7 +346,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_16
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_16
       rect:
         serializedVersion: 2
         x: 33
@@ -323,7 +359,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_17
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_17
       rect:
         serializedVersion: 2
         x: 66
@@ -334,7 +372,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_18
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_18
       rect:
         serializedVersion: 2
         x: 101
@@ -345,7 +385,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_19
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_19
       rect:
         serializedVersion: 2
         x: 134
@@ -356,7 +398,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_20
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_20
       rect:
         serializedVersion: 2
         x: 168
@@ -367,7 +411,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_21
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_21
       rect:
         serializedVersion: 2
         x: 201
@@ -378,7 +424,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_22
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_22
       rect:
         serializedVersion: 2
         x: 235
@@ -389,7 +437,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_23
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_23
       rect:
         serializedVersion: 2
         x: 269
@@ -397,10 +447,12 @@ TextureImporter:
         width: 24
         height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_24
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_24
       rect:
         serializedVersion: 2
         x: 304
@@ -408,10 +460,12 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_25
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_25
       rect:
         serializedVersion: 2
         x: 336
@@ -419,10 +473,12 @@ TextureImporter:
         width: 24
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_26
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_26
       rect:
         serializedVersion: 2
         x: 370
@@ -433,7 +489,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_27
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_27
       rect:
         serializedVersion: 2
         x: 402
@@ -444,7 +502,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_28
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_28
       rect:
         serializedVersion: 2
         x: 436
@@ -455,7 +515,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_29
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_29
       rect:
         serializedVersion: 2
         x: 470
@@ -466,7 +528,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_30
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_30
       rect:
         serializedVersion: 2
         x: 504
@@ -477,7 +541,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_31
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_31
       rect:
         serializedVersion: 2
         x: 536
@@ -488,7 +554,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_32
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_32
       rect:
         serializedVersion: 2
         x: 570
@@ -499,7 +567,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_33
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_33
       rect:
         serializedVersion: 2
         x: 603
@@ -510,7 +580,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_34
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_34
       rect:
         serializedVersion: 2
         x: 8
@@ -521,7 +593,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_35
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_35
       rect:
         serializedVersion: 2
         x: 39
@@ -532,7 +606,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_36
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_36
       rect:
         serializedVersion: 2
         x: 70
@@ -543,7 +619,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_37
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_37
       rect:
         serializedVersion: 2
         x: 101
@@ -554,7 +632,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_38
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_38
       rect:
         serializedVersion: 2
         x: 135
@@ -565,7 +645,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_39
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_39
       rect:
         serializedVersion: 2
         x: 168
@@ -576,7 +658,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_40
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_40
       rect:
         serializedVersion: 2
         x: 200
@@ -587,7 +671,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_41
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_41
       rect:
         serializedVersion: 2
         x: 234
@@ -598,7 +684,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_42
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_42
       rect:
         serializedVersion: 2
         x: 268
@@ -609,7 +697,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_43
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_43
       rect:
         serializedVersion: 2
         x: 300
@@ -620,7 +710,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_44
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_44
       rect:
         serializedVersion: 2
         x: 332
@@ -631,7 +723,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_45
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_45
       rect:
         serializedVersion: 2
         x: 373
@@ -642,7 +736,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_46
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_46
       rect:
         serializedVersion: 2
         x: 407
@@ -653,7 +749,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_47
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_47
       rect:
         serializedVersion: 2
         x: 439
@@ -664,7 +762,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_48
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_48
       rect:
         serializedVersion: 2
         x: 470
@@ -675,7 +775,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_49
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_49
       rect:
         serializedVersion: 2
         x: 502
@@ -686,7 +788,22 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_51
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_50
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 62
+        width: 72
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_51
       rect:
         serializedVersion: 2
         x: 564
@@ -697,7 +814,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_52
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_52
       rect:
         serializedVersion: 2
         x: 596
@@ -708,7 +827,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_53
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_53
       rect:
         serializedVersion: 2
         x: 629
@@ -719,7 +840,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_54
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_54
       rect:
         serializedVersion: 2
         x: 670
@@ -730,7 +853,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_55
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_55
       rect:
         serializedVersion: 2
         x: 8
@@ -741,7 +866,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_56
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_56
       rect:
         serializedVersion: 2
         x: 34
@@ -752,7 +879,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_57
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_57
       rect:
         serializedVersion: 2
         x: 62
@@ -763,7 +892,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_58
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_58
       rect:
         serializedVersion: 2
         x: 93
@@ -774,7 +905,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_59
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_59
       rect:
         serializedVersion: 2
         x: 124
@@ -785,7 +918,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_60
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_60
       rect:
         serializedVersion: 2
         x: 154
@@ -796,7 +931,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_61
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_61
       rect:
         serializedVersion: 2
         x: 185
@@ -807,7 +944,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_62
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_62
       rect:
         serializedVersion: 2
         x: 215
@@ -818,7 +957,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_63
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_63
       rect:
         serializedVersion: 2
         x: 245
@@ -829,7 +970,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_64
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_64
       rect:
         serializedVersion: 2
         x: 275
@@ -840,7 +983,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_65
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_65
       rect:
         serializedVersion: 2
         x: 305
@@ -851,7 +996,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_66
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_66
       rect:
         serializedVersion: 2
         x: 335
@@ -862,7 +1009,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_67
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_67
       rect:
         serializedVersion: 2
         x: 5
@@ -872,15 +1021,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -8, y: 20.5}
-        - {x: -18, y: 3.5}
-        - {x: -18, y: -17.5}
-        - {x: -17, y: -20.5}
-        - {x: 4, y: -20.5}
-        - {x: 18, y: -7.5}
-        - {x: 18, y: 20.5}
-    - name: Player_68
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_68
       rect:
         serializedVersion: 2
         x: 49
@@ -890,15 +1034,10 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: 18.5}
-        - {x: -20, y: 3.5}
-        - {x: -20, y: -18.5}
-        - {x: 11, y: -18.5}
-        - {x: 20, y: -12.5}
-        - {x: 20, y: 12.5}
-        - {x: 14, y: 18.5}
-    - name: Player_69
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_69
       rect:
         serializedVersion: 2
         x: 97
@@ -909,7 +1048,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_70
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_70
       rect:
         serializedVersion: 2
         x: 146
@@ -920,7 +1061,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_71
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_71
       rect:
         serializedVersion: 2
         x: 181
@@ -931,7 +1074,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_72
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_72
       rect:
         serializedVersion: 2
         x: 211
@@ -942,7 +1087,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_73
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_73
       rect:
         serializedVersion: 2
         x: 240
@@ -953,7 +1100,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_74
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_74
       rect:
         serializedVersion: 2
         x: 269
@@ -964,7 +1113,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_75
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_75
       rect:
         serializedVersion: 2
         x: 23
@@ -975,7 +1126,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_76
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_76
       rect:
         serializedVersion: 2
         x: 7
@@ -986,7 +1139,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_77
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_77
       rect:
         serializedVersion: 2
         x: 42
@@ -997,7 +1152,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_78
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_78
       rect:
         serializedVersion: 2
         x: 73
@@ -1008,7 +1165,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_79
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_79
       rect:
         serializedVersion: 2
         x: 104
@@ -1019,7 +1178,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_80
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_80
       rect:
         serializedVersion: 2
         x: 135
@@ -1030,7 +1191,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_81
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_81
       rect:
         serializedVersion: 2
         x: 169
@@ -1041,7 +1204,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_82
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_82
       rect:
         serializedVersion: 2
         x: 202
@@ -1052,7 +1217,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_83
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_83
       rect:
         serializedVersion: 2
         x: 234
@@ -1063,7 +1230,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_84
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_84
       rect:
         serializedVersion: 2
         x: 268
@@ -1074,7 +1243,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_85
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_85
       rect:
         serializedVersion: 2
         x: 302
@@ -1085,7 +1256,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Player_86
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Player_86
       rect:
         serializedVersion: 2
         x: 334
@@ -1093,9 +1266,10 @@ TextureImporter:
         width: 25
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
