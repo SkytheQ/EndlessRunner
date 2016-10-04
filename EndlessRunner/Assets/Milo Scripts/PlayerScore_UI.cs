@@ -20,17 +20,22 @@ public class PlayerScore_UI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
 
 	}
 
 	void OnTriggerEnter(Collider other) {
-		if (other.gameObject.CompareTag ("Enemy")) {
+		GameObject Player = GameObject.Find ("Player");
+		PlayerLife playerlifes = Player.GetComponent<PlayerLife> ();
+		if (other.gameObject.CompareTag("Enemy")) {
 			if (score == 0) {
 				score = 0;
 			} else {
 				score -= 50;
+				playerlifes.Lifes -= 1;
+				Debug.Log (playerlifes.Lifes);
 			}
-		
+			playerlifes.SetLifeText ();
 			SetScoreText ();
 		}
 	}

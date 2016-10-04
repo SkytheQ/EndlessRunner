@@ -22,14 +22,14 @@ public class PlayerAttack : MonoBehaviour {
 
 		RaycastHit hit;
 		if (Physics.Linecast (transform.position, enemyCheck.position, out hit)) {
-			Debug.Log ("enemy hit");
+			//Debug.Log ("enemy hit");
 			if (Input.GetKeyDown (KeyCode.E)) {
 				Destroy (hit.collider.gameObject);
 				playerscore_ui.score += 50;
 				playerscore_ui.SetScoreText ();
 			}
 		} else {
-			Debug.Log ("did not hit enemy");
+			//Debug.Log ("did not hit enemy");
 		}
 	}
 }
