@@ -45,7 +45,8 @@ public class PlayerMovement : MonoBehaviour {
         //Debug.DrawLine(transform.position, groundCheck.position);
         //Debug.Log ("Player position: " + transform.position);
         //Debug.Log ("ground position: " + groundCheck.position);
-        if (Physics.Linecast(transform.position, /*    -Vector2.up*/ groundCheck.position))
+		RaycastHit2D raycast2d = Physics2D.Linecast(transform.position, groundCheck.position);
+		if (raycast2d.collider.tag == "Platform")
         {
             Debug.Log("ja");
             if (Input.GetKeyDown(KeyCode.W))
