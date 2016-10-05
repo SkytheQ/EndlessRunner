@@ -34,22 +34,28 @@ public class PlayerMovement : MonoBehaviour {
 	}
 
 	void FixedUpdate() {
-		//Debug.Log (JumpSpeed);
-		/*
+        //Debug.Log (JumpSpeed);
+        /*
 		if (Input.GetKeyDown (KeyCode.W) && isFalling == false) {
 			rb.AddForce (Vector3.up * JumpSpeed, ForceMode.VelocityChange);
 		}
 		isFalling = true;
 		*/
-		//Debug.Log (JumpSpeed);
-		//Debug.DrawLine(transform.position, groundCheck.position);
-		//Debug.Log ("Player position: " + transform.position);
-		//Debug.Log ("ground position: " + groundCheck.position);
-		if (Physics.Linecast (transform.position, /*    -Vector2.up*/ groundCheck.position)) {
-			if (Input.GetKeyDown (KeyCode.W)) {
-				rb.AddForce (Vector3.up * JumpSpeed, ForceMode2D.Impulse);
-			}
-		}
+        //Debug.Log (JumpSpeed);
+        //Debug.DrawLine(transform.position, groundCheck.position);
+        //Debug.Log ("Player position: " + transform.position);
+        //Debug.Log ("ground position: " + groundCheck.position);
+        if (Physics.Linecast(transform.position, /*    -Vector2.up*/ groundCheck.position))
+        {
+            Debug.Log("ja");
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                rb.AddForce(Vector3.up * JumpSpeed, ForceMode2D.Impulse);
+            }
+        }
+        else {
+            Debug.Log("nee");
+        }
 	}
 
 	/*
