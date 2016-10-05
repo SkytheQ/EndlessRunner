@@ -4,8 +4,8 @@ using System.Collections;
 ///  
 /// </summary>
 public class PlayerMovement : MonoBehaviour {
-	private float RunSpeed = 0.02f;
-	private float JumpSpeed = 8f;
+	private float RunSpeed = 0.05f;
+	private float JumpSpeed = 9f;
 	//private bool isFalling = false;
 	public Rigidbody2D rb;
 	[SerializeField] private Transform groundCheck;
@@ -45,17 +45,17 @@ public class PlayerMovement : MonoBehaviour {
         //Debug.DrawLine(transform.position, groundCheck.position);
         //Debug.Log ("Player position: " + transform.position);
         //Debug.Log ("ground position: " + groundCheck.position);
-		RaycastHit2D raycast2d = Physics2D.Linecast(transform.position, groundCheck.position);
-		if (raycast2d.collider.tag == "Platform")
+		bool linecast2d = Physics2D.Linecast(transform.position, groundCheck.position , 1 << LayerMask.NameToLayer("Platform"));
+		if (linecast2d)
         {
-            Debug.Log("ja");
+			Debug.DrawLine(transform.position , groundCheck.position , Color.green, 0.5f, false);
             if (Input.GetKeyDown(KeyCode.W))
             {
-                rb.AddForce(Vector3.up * JumpSpeed, ForceMode2D.Impulse);
-            }
+				rb.AddForce(Vector3.up * JumpSpeed, ForceMode2D.Impulse);
+            }	
         }
         else {
-            Debug.Log("nee");
+			Debug.DrawLine(transform.position , groundCheck.position , Color.red, 0.5f, false);
         }
 	}
 
