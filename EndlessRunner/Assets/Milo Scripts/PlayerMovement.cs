@@ -4,16 +4,16 @@ using System.Collections;
 ///  
 /// </summary>
 public class PlayerMovement : MonoBehaviour {
-	private float RunSpeed = 0.06f;
+	private float RunSpeed = 0.02f;
 	private float JumpSpeed = 8f;
 	//private bool isFalling = false;
-	public Rigidbody rb;
+	public Rigidbody2D rb;
 	[SerializeField] private Transform groundCheck;
 
 
 	// Use this for initialization
 	void Start () {
-		rb = GetComponent<Rigidbody> ();
+		rb = GetComponent<Rigidbody2D> ();
 	}
 
 	// Update is called once per frame
@@ -45,9 +45,9 @@ public class PlayerMovement : MonoBehaviour {
 		//Debug.DrawLine(transform.position, groundCheck.position);
 		//Debug.Log ("Player position: " + transform.position);
 		//Debug.Log ("ground position: " + groundCheck.position);
-		if (Physics.Linecast (transform.position, /*-Vector2.up*/ groundCheck.position)) {
+		if (Physics.Linecast (transform.position, /*    -Vector2.up*/ groundCheck.position)) {
 			if (Input.GetKeyDown (KeyCode.W)) {
-				rb.AddForce (Vector3.up * JumpSpeed, ForceMode.VelocityChange);
+				rb.AddForce (Vector3.up * JumpSpeed, ForceMode2D.Impulse);
 			}
 		}
 	}
