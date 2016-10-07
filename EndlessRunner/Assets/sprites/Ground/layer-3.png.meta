@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 291c4caff3c037a488e6e91f8c12bd5e
-timeCreated: 1475739009
+guid: 79467be89eabbd749bb8e1f6d135010f
+timeCreated: 1475834297
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: tileset_0
+    21300000: layer-3_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -45,27 +45,27 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 150
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: tileset_0
+    - name: layer-3_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 49
-        width: 48
-        height: 47
+        x: 0
+        y: 0
+        width: 3072
+        height: 209
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -24, y: 23.5}
-        - {x: -24, y: -23.5}
-        - {x: 24, y: -23.5}
-        - {x: 24, y: 23.5}
+      - - {x: -1024, y: 70}
+        - {x: -1024, y: -70}
+        - {x: 1024, y: -70}
+        - {x: 1024, y: 70}
     outline: []
   spritePackingTag: 
   userData: 
