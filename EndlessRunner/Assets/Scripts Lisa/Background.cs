@@ -3,19 +3,13 @@ using System.Collections;
 
 public class Background : MonoBehaviour {
 
-    [SerializeField]
-    private float _speed; //The speed with wich it scrolls
-    private Vector3 _newPos = new Vector3(50, 0, 0); //The position where it spawns
+    public float backgroundSize;
 
-    void Update()
-    {
-        //Makes stuff scroll to the left
-        transform.Translate(Vector3.left * _speed * Time.deltaTime);
-    }
+    private Transform _cameraTransform;
+    private Transform[] _layers;
+    private float _viewZone = 10;
+    private int _leftIndex;
+    private int _rightIndex;
 
-    void OnBecameInvisible()
-    {
-        //Makes it spawn again when it isn't visible anymore
-        transform.position += _newPos;
-    }
+
 }
