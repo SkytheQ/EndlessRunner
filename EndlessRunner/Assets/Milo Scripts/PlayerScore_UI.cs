@@ -23,22 +23,24 @@ public class PlayerScore_UI : MonoBehaviour {
 		
 
 	}
-
-	void OnTriggerEnter(Collider other) {
+	void OnCollisionEnter2D(Collision2D coll) {
 		GameObject Player = GameObject.Find ("Player");
 		PlayerLife playerlifes = Player.GetComponent<PlayerLife> ();
-		if (other.gameObject.CompareTag("Enemy")) {
+		if (coll.gameObject.CompareTag("Enemy")) {
 			if (score == 0) {
 				score = 0;
 			} else {
 				score -= 50;
 				playerlifes.Lifes -= 1;
+				Destroy (coll.gameObject);
 				Debug.Log (playerlifes.Lifes);
 			}
 			playerlifes.SetLifeText ();
 			SetScoreText ();
 		}
+
 	}
+
 
 	public void SetScoreText() {
 		scoreText.text = "Score: " + score.ToString();
