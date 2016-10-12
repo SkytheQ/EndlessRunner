@@ -20,16 +20,16 @@ public class PlayerAttack : MonoBehaviour {
 		GameObject Player = GameObject.Find ("Player");
 		PlayerScore_UI playerscore_ui = Player.GetComponent<PlayerScore_UI> ();
 
-		RaycastHit hit;
-		if (Physics.Linecast (transform.position, enemyCheck.position, out hit)) {
-			//Debug.Log ("enemy hit");
+		RaycastHit2D hit = Physics2D.Linecast(transform.position, enemyCheck.position , 1 << LayerMask.NameToLayer("Shroom"));
+		if (hit.collider) {
+			Debug.DrawLine(transform.position , enemyCheck.position , Color.green, 0.5f, false);
 			if (Input.GetKeyDown (KeyCode.E)) {
 				Destroy (hit.collider.gameObject);
 				playerscore_ui.score += 50;
 				playerscore_ui.SetScoreText ();
 			}
 		} else {
-			//Debug.Log ("did not hit enemy");
+			Debug.DrawLine(transform.position , enemyCheck.position , Color.red, 0.5f, false);
 		}
 	}
 }

@@ -4,10 +4,10 @@ using System.Collections;
 public class EnemySpawn : MonoBehaviour {
 
 	public GameObject Enemy;
-	public float spawnTime = 3f;
+	public float spawnTime = 1.5f;
 	public GameObject[] enemies;
 
-	float x;
+	float x = 0;
 	float y = -2.59f;
 	float z = 1.55f;
 	Vector3 SpawnPosition;

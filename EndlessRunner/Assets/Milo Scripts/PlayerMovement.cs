@@ -4,7 +4,7 @@ using System.Collections;
 ///  
 /// </summary>
 public class PlayerMovement : MonoBehaviour {
-	private float RunSpeed = 0.05f;
+	private float RunSpeed = 0.08f;
 	private float JumpSpeed = 9f;
 	//private bool isFalling = false;
 	public Rigidbody2D rb;
