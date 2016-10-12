@@ -9,11 +9,12 @@ public class EnemySpawn : MonoBehaviour {
 
 	float x;
 	float y = -2.59f;
-	Vector2 SpawnPosition;
+	float z = 1.55f;
+	Vector3 SpawnPosition;
 
 	// Use this for initialization
 	void Start () {
-		SpawnPosition = new Vector2 (x,y);
+		SpawnPosition = new Vector3 (x,y,z);
 		//transform.position = pos;
 		InvokeRepeating ("Spawn", spawnTime, spawnTime);
 	}
