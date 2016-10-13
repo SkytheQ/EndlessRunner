@@ -29,11 +29,9 @@ public class EnemySpawn : MonoBehaviour {
 		PlayerLife playerlifes = Player.GetComponent<PlayerLife> ();
 		if (playerlifes.Lifes <= 0f) {
 			return;
+		} else {
+			Instantiate (enemies[0], SpawnPosition, transform.rotation);
+			SpawnPosition.x += Random.Range (10, 20);
 		}
-
-		//int enemyIndex = Random.Range (0, enemies.Length);
-		Instantiate (enemies[0], SpawnPosition, transform.rotation);
-
-		SpawnPosition.x += Random.Range (10, 20);
 	}
 }
