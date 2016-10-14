@@ -16,6 +16,9 @@ public class pauseMenu : MonoBehaviour {
 
     void Update()
     {
+		GameObject Player = GameObject.Find ("Player");
+		PlayerMovement playermovement = Player.GetComponent<PlayerMovement> ();
+
         if (Input.GetButtonDown("Pause"))
         {
             _paused = !_paused;
@@ -23,9 +26,11 @@ public class pauseMenu : MonoBehaviour {
 
         if (_paused)
         {
+			
             pauseUI.SetActive(true);
             Time.timeScale = 0;
             AudioListener.pause = true;
+			playermovement.RunSpeed = 0f;
             
         }
 
@@ -34,6 +39,8 @@ public class pauseMenu : MonoBehaviour {
             pauseUI.SetActive(false);
             Time.timeScale = 1;
             AudioListener.pause = false;
+			playermovement.RunSpeed = 0.08f;
+
         }
     }
 

@@ -16,6 +16,6 @@ public class mainMenu : MonoBehaviour {
 
     public void Instructions(string _instruction)
     {
-        SceneManager.LoadScene(_instruction);
+        SceneManager.LoadScene(2);
     }
 }

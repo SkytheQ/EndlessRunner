@@ -7,9 +7,9 @@ public class EnemySpawn : MonoBehaviour {
 	public float spawnTime = 1.5f;
 	public GameObject[] enemies;
 
-	float x = 0;
-	float y = -2.59f;
-	float z = 1.55f;
+	float x = -53.41f;
+	float y = -1.7f;
+	float z = -0.2f;
 	Vector3 SpawnPosition;
 
 	// Use this for initialization
@@ -31,7 +31,7 @@ public class EnemySpawn : MonoBehaviour {
 			return;
 		} else {
 			Instantiate (enemies[0], SpawnPosition, transform.rotation);
-			SpawnPosition.x += Random.Range (10, 20);
+			SpawnPosition.x += 15;
 		}
 	}
 }

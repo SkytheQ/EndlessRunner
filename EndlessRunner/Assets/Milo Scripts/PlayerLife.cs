@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerLife : MonoBehaviour {
 
@@ -16,7 +17,8 @@ public class PlayerLife : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (Lifes <= 0) {
-			//Destroy (gameObject);
+			Lifes = 0;
+			SceneManager.LoadScene(3);
 		}
 	}
 
