@@ -31,7 +31,6 @@ public class DistanceScore : MonoBehaviour {
 		currentPos.y = 0;
 		totalDistance += Vector3.Distance(currentPos, lastPos);
 		lastPos = currentPos;
-		playerscore_ui.distanceWalked.text = "Total Distance: " + totalDistance.ToString();
 
 
 		if (totalDistance > minimunWalkPoint && totalDistance < maximumWalkPoint) {

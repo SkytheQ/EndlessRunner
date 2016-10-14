@@ -9,7 +9,6 @@ public class PlayerScore_UI : MonoBehaviour {
 
 	public int score;
 
-	public Text distanceWalked;
 
 	// Use this for initialization
 	void Start () {
