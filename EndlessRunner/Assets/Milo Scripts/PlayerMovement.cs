@@ -5,7 +5,7 @@ using System.Collections;
 /// </summary>
 public class PlayerMovement : MonoBehaviour {
 	private float RunSpeed = 0.08f;
-	private float JumpSpeed = 9f;
+	private float JumpSpeed = 3f;
 	//private bool isFalling = false;
 	public Rigidbody2D rb;
 	[SerializeField] private Transform groundCheck;
